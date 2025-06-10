@@ -1,0 +1,11 @@
+cadence:
+  target: dev
+  outputs:
+    dev:
+      type: sqlserver
+      server: HOMEDESKTOP-MAR
+      database: cadence
+      schema: dbo
+      user: HOMEDESKTOP-MAR\Marc Arguijo
+      password: 
+      port: 1433
