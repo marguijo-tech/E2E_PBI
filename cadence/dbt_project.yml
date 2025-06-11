@@ -31,6 +31,21 @@ clean-targets:         # directories to be removed by `dbt clean`
 # files using the `{{ config(...) }}` macro.
 models:
   cadence:
-    # Config indicated by + and applies to all files under models/example/
-    example:
+    +schema: dbt
+    # Config indicated by + and applies to all files
+    staging:
+      +materialized: table
+    refined:
+      +materialized: table
+    mart:
       +materialized: view
+
+seeds:
+  cadence:
+    +schema: "seeds"
+
+quoting:
+  database: false
+  schema: true
+  identifier: true
+    

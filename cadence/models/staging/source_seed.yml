@@ -1,0 +1,5 @@
+version: 2
+sources:
+  - name: seeds
+    tables:
+      - name: Discog_Collection_Data

@@ -1,0 +1,22 @@
+version: 2
+
+sources:
+  - name: cadence
+    database: cadence
+    schema: dbo
+    tables:
+      - name: Follow
+      - name: Identity
+      - name: Marquee
+      - name: Payments
+      - name: Playlist1
+      - name: PodcastInteractivityVotedPollOption
+      - name: Rolling_Stone_Top_500_Albums
+      - name: SearchQueries
+      - name: Spotify_Tracks
+      - name: StreamingHistory_music_0
+      - name: StreamingHistory_music_1
+      - name: StreamingHistory_podcast_0
+      - name: UserData
+      - name: Wrapped2024
+      - name: YourLibrary
