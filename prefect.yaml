@@ -19,12 +19,12 @@ pull:
 
 # the deployments section allows you to provide configuration for deploying flows
 deployments:
-- name: Process Kaggle Dataset
+- name: fl_process_datasets
   version: null
   tags: []
   concurrency_limit: null
   description: null
-  entrypoint: load_datasets_to_database.py:process_kagglehub_datasets
+  entrypoint: load_datasets_to_database.py:process_datasets
   parameters: {}
   work_pool:
     name: default
