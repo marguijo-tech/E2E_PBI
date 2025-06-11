@@ -59,3 +59,143 @@ click.exceptions.Abort
 [0m20:25:10.480682 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017292231AF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017293B8BEC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017293A3F530>]}
 [0m20:25:10.480682 [debug] [MainThread]: Flushing usage events
 [0m20:25:10.747619 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:17:15.347720 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020F448E33E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020F448E1D00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020F44D4EB40>]}
+
+
+============================== 15:17:15.352549 | 6d5910cb-b118-490f-99af-e9342e13d5bc ==============================
+[0m15:17:15.352549 [info ] [MainThread]: Running with dbt=1.9.7
+[0m15:17:15.352549 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Marc Arguijo\\.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt init cadence', 'send_anonymous_usage_stats': 'True'}
+[0m15:17:15.376036 [debug] [MainThread]: Starter project path: C:\Users\Marc Arguijo\Development_Source\PowerBI_E2E_Report\E2E_PBI\.venv\Lib\site-packages\dbt\include\starter_project
+[0m15:17:15.400800 [info ] [MainThread]: 
+Your new dbt project "cadence" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:17:15.400800 [info ] [MainThread]: Setting up your profile.
+[0m15:22:44.600244 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026A25AED790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026A259F8AA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026A28B1A5A0>]}
+
+
+============================== 15:22:44.603236 | 49d2ab04-0857-4f4f-abb6-a88e6a3ef6d7 ==============================
+[0m15:22:44.603236 [info ] [MainThread]: Running with dbt=1.9.7
+[0m15:22:44.604742 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Marc Arguijo\\.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m15:22:44.618144 [info ] [MainThread]: dbt version: 1.9.7
+[0m15:22:44.619649 [info ] [MainThread]: python version: 3.12.9
+[0m15:22:44.619649 [info ] [MainThread]: python path: C:\Users\Marc Arguijo\Development_Source\PowerBI_E2E_Report\E2E_PBI\.venv\Scripts\python.exe
+[0m15:22:44.620655 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m15:22:44.884926 [info ] [MainThread]: Using profiles dir at C:\Users\Marc Arguijo\.dbt
+[0m15:22:44.884926 [info ] [MainThread]: Using profiles.yml file at C:\Users\Marc Arguijo\.dbt\profiles.yml
+[0m15:22:44.885931 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Marc Arguijo\Development_Source\PowerBI_E2E_Report\E2E_PBI\dbt_project.yml
+[0m15:22:44.885931 [info ] [MainThread]: adapter type: sqlserver
+[0m15:22:44.885931 [info ] [MainThread]: adapter version: 1.9.0
+[0m15:22:44.886940 [info ] [MainThread]: Configuration:
+[0m15:22:44.886940 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m15:22:44.887937 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m15:22:44.888132 [info ] [MainThread]: Required dependencies:
+[0m15:22:44.888132 [debug] [MainThread]: Executing "git --help"
+[0m15:22:44.922813 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m15:22:44.922813 [debug] [MainThread]: STDERR: "b''"
+[0m15:22:44.922813 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m15:22:44.924012 [info ] [MainThread]: Connection:
+[0m15:22:44.924012 [info ] [MainThread]:   server: HOMEDESKTOP-MAR
+[0m15:22:44.925034 [info ] [MainThread]:   database: cadence
+[0m15:22:44.925034 [info ] [MainThread]:   schema: dbo
+[0m15:22:44.925034 [info ] [MainThread]:   UID: None
+[0m15:22:44.926186 [info ] [MainThread]:   client_id: None
+[0m15:22:44.926186 [info ] [MainThread]:   authentication: sql
+[0m15:22:44.926186 [info ] [MainThread]:   encrypt: True
+[0m15:22:44.927239 [info ] [MainThread]:   trust_cert: True
+[0m15:22:44.927239 [info ] [MainThread]:   retries: 3
+[0m15:22:44.927239 [info ] [MainThread]:   login_timeout: 0
+[0m15:22:44.928321 [info ] [MainThread]:   query_timeout: 0
+[0m15:22:44.928321 [info ] [MainThread]:   trace_flag: False
+[0m15:22:44.928321 [info ] [MainThread]:   port: 1433
+[0m15:22:44.928321 [info ] [MainThread]: Registered adapter: sqlserver=1.9.0
+[0m15:22:45.326169 [debug] [MainThread]: Acquiring new sqlserver connection 'debug'
+[0m15:22:45.326169 [debug] [MainThread]: Using sqlserver connection "debug"
+[0m15:22:45.326169 [debug] [MainThread]: On debug: select 1 as id
+[0m15:22:45.326169 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m15:22:45.327359 [debug] [MainThread]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=HOMEDESKTOP-MAR;Database=cadence;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.9.3;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m15:22:46.622277 [debug] [MainThread]: fabric adapter: Connected to db: cadence
+[0m15:22:46.623274 [debug] [MainThread]: SQL status: OK in 1.000 seconds
+[0m15:22:46.623274 [debug] [MainThread]: On debug: Close
+[0m15:22:46.624780 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m15:22:46.624780 [info ] [MainThread]: [31m1 check failed:[0m
+[0m15:22:46.624780 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Marc Arguijo\Development_Source\PowerBI_E2E_Report\E2E_PBI\dbt_project.yml> not found
+
+[0m15:22:46.625948 [debug] [MainThread]: Command `dbt debug` failed at 15:22:46.625948 after 2.32 seconds
+[0m15:22:46.626945 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m15:22:46.626945 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026A28789A30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026A2A53BA40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026A2806F440>]}
+[0m15:22:46.626945 [debug] [MainThread]: Flushing usage events
+[0m15:22:46.873901 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:23:19.864753 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A23528D5B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A23270D670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A23512A6C0>]}
+
+
+============================== 15:23:19.867254 | 17e9cfa5-0f18-44cb-8882-97efe30d7d5f ==============================
+[0m15:23:19.867254 [info ] [MainThread]: Running with dbt=1.9.7
+[0m15:23:19.868251 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Marc Arguijo\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m15:23:19.882339 [info ] [MainThread]: dbt version: 1.9.7
+[0m15:23:19.882339 [info ] [MainThread]: python version: 3.12.9
+[0m15:23:19.882339 [info ] [MainThread]: python path: C:\Users\Marc Arguijo\Development_Source\PowerBI_E2E_Report\E2E_PBI\.venv\Scripts\python.exe
+[0m15:23:19.883517 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m15:23:20.095419 [info ] [MainThread]: Using profiles dir at C:\Users\Marc Arguijo\.dbt
+[0m15:23:20.095419 [info ] [MainThread]: Using profiles.yml file at C:\Users\Marc Arguijo\.dbt\profiles.yml
+[0m15:23:20.096448 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Marc Arguijo\Development_Source\PowerBI_E2E_Report\E2E_PBI\dbt_project.yml
+[0m15:23:20.096448 [info ] [MainThread]: adapter type: sqlserver
+[0m15:23:20.097764 [info ] [MainThread]: adapter version: 1.9.0
+[0m15:23:20.097764 [info ] [MainThread]: Configuration:
+[0m15:23:20.098859 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m15:23:20.098859 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m15:23:20.098859 [info ] [MainThread]: Required dependencies:
+[0m15:23:20.099952 [debug] [MainThread]: Executing "git --help"
+[0m15:23:20.133980 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m15:23:20.134978 [debug] [MainThread]: STDERR: "b''"
+[0m15:23:20.134978 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m15:23:20.136149 [info ] [MainThread]: Connection:
+[0m15:23:20.136149 [info ] [MainThread]:   server: HOMEDESKTOP-MAR
+[0m15:23:20.137146 [info ] [MainThread]:   database: cadence
+[0m15:23:20.137146 [info ] [MainThread]:   schema: dbo
+[0m15:23:20.137146 [info ] [MainThread]:   UID: None
+[0m15:23:20.138461 [info ] [MainThread]:   client_id: None
+[0m15:23:20.138461 [info ] [MainThread]:   authentication: sql
+[0m15:23:20.138461 [info ] [MainThread]:   encrypt: True
+[0m15:23:20.138461 [info ] [MainThread]:   trust_cert: True
+[0m15:23:20.140454 [info ] [MainThread]:   retries: 3
+[0m15:23:20.140454 [info ] [MainThread]:   login_timeout: 0
+[0m15:23:20.141594 [info ] [MainThread]:   query_timeout: 0
+[0m15:23:20.141594 [info ] [MainThread]:   trace_flag: False
+[0m15:23:20.142621 [info ] [MainThread]:   port: 1433
+[0m15:23:20.143617 [info ] [MainThread]: Registered adapter: sqlserver=1.9.0
+[0m15:23:20.397517 [debug] [MainThread]: Acquiring new sqlserver connection 'debug'
+[0m15:23:20.397517 [debug] [MainThread]: Using sqlserver connection "debug"
+[0m15:23:20.398515 [debug] [MainThread]: On debug: select 1 as id
+[0m15:23:20.398515 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m15:23:20.398515 [debug] [MainThread]: fabric adapter: Using connection string: DRIVER={ODBC Driver 17 for SQL Server};SERVER=HOMEDESKTOP-MAR;Database=cadence;Pooling=true;SQL_ATTR_TRACE=SQL_OPT_TRACE_OFF;trusted_connection=Yes;encrypt=Yes;TrustServerCertificate=Yes;APP=dbt-sqlserver/1.9.3;ConnectRetryCount=3;ConnectRetryInterval=10
+[0m15:23:21.685874 [debug] [MainThread]: fabric adapter: Connected to db: cadence
+[0m15:23:21.685874 [debug] [MainThread]: SQL status: OK in 1.000 seconds
+[0m15:23:21.686979 [debug] [MainThread]: On debug: Close
+[0m15:23:21.686979 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m15:23:21.688002 [info ] [MainThread]: [31m1 check failed:[0m
+[0m15:23:21.688002 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Marc Arguijo\Development_Source\PowerBI_E2E_Report\E2E_PBI\dbt_project.yml> not found
+
+[0m15:23:21.689509 [debug] [MainThread]: Command `dbt debug` failed at 15:23:21.689509 after 2.10 seconds
+[0m15:23:21.689509 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m15:23:21.689509 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A23490ECC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A2350B86B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A234BC0470>]}
+[0m15:23:21.690530 [debug] [MainThread]: Flushing usage events
+[0m15:23:21.931202 [debug] [MainThread]: An error was encountered while trying to flush usage events
