@@ -1,0 +1,137 @@
+{
+  "topArtists": {
+    "numUniqueArtists": 1756,
+    "topArtists": [
+      {
+        "artistUri": "spotify:artist:3z8aGzEIL6yA1mFXNFf9E3"
+      },
+      {
+        "artistUri": "spotify:artist:31jvzuB4ikftPQZJwrYfCF"
+      },
+      {
+        "artistUri": "spotify:artist:6kQB2RN7WwryMdJ1MoQh1E"
+      },
+      {
+        "artistUri": "spotify:artist:1Tsag5J854qxeOo2apszug"
+      },
+      {
+        "artistUri": "spotify:artist:59cc2f0IvGu6YVEtY4cS0p"
+      }
+    ],
+    "topArtistMilliseconds": 120075956,
+    "topArtistFanPercentage": 0.0060427925
+  },
+  "topPodcasts": {
+    "topPodcastsUri": [
+      "spotify:show:0jaSjsB9ezEXbEyNXQeMIM",
+      "spotify:show:0BLwvliyT1xceFR8B4W0wJ",
+      "spotify:show:2Q6KtBmM9zB3Q8DFBbJsZn"
+    ],
+    "topPodcastMilliseconds": 35897698,
+    "topPodcastPercentage": 0.0,
+    "totalPodcastMilliseconds": 54289953
+  },
+  "topTracks": {
+    "topTracks": [
+      "spotify:track:1u1r3YlaszDsjT53tkFeQn",
+      "spotify:track:5GpbzkD4BhgTLOABvZv9E6",
+      "spotify:track:5cxKbYUSxcbURHH7zbfE14",
+      "spotify:track:24U5z1VTYwsx9IpwEOxkga",
+      "spotify:track:7469rGV3mLWwDYEIyyNJsd"
+    ],
+    "topTrackPlayCount": 75,
+    "topTrackFirstPlayedDate": "2024-02-09",
+    "distinctTracksPlayed": 4401
+  },
+  "yearlyMetrics": {
+    "totalMsListened": 1700024524,
+    "mostListenedDay": "2024-01-24",
+    "mostListenedDayMinutes": 830.6404,
+    "percentGreaterThanWorldwideUsers": 88.01088
+  },
+  "musicEvolution": {
+    "eras": [
+      {
+        "key": "0",
+        "peakMonth": 1,
+        "color": "red-blue",
+        "genre": "indie",
+        "mood": "serotonin",
+        "descriptor": "happy rock",
+        "pivotalArtists": [
+          "spotify:artist:536BYVgOnRky0xjsPT96zl",
+          "spotify:artist:5BvJzeQpmsdsFp4HGUYUEx",
+          "spotify:artist:0kRKKlFroEhNFwLkonqTBv"
+        ],
+        "tracks": [
+          {
+            "trackName": "Social Disco Dancing",
+            "trackUri": "spotify:track:6DeO4vgKECdZD4ehQ9gjXS"
+          },
+          {
+            "trackName": "Keep Two-Stepping",
+            "trackUri": "spotify:track:273QLNes7AQUsoFWKSNlPQ"
+          },
+          {
+            "trackName": "1989",
+            "trackUri": "spotify:track:54P2lIb9lixHEWCBRmqFLq"
+          }
+        ]
+      },
+      {
+        "key": "1",
+        "peakMonth": 4,
+        "color": "red-blue",
+        "genre": "swancore",
+        "mood": "scene",
+        "descriptor": "rock out",
+        "pivotalArtists": [
+          "spotify:artist:3z8aGzEIL6yA1mFXNFf9E3",
+          "spotify:artist:6guC9FqvlVboSKTI77NG2k",
+          "spotify:artist:0JE6zkJHzUQRY7rmI919eo"
+        ],
+        "tracks": [
+          {
+            "trackName": "No Weapon Formed Shall Prosper",
+            "trackUri": "spotify:track:1u1r3YlaszDsjT53tkFeQn"
+          },
+          {
+            "trackName": "Who Of You Will Persevere?",
+            "trackUri": "spotify:track:7469rGV3mLWwDYEIyyNJsd"
+          },
+          {
+            "trackName": "Golgotha Compendium: Fifth Temple",
+            "trackUri": "spotify:track:20HMVyr7088wYE29g9tHN9"
+          }
+        ]
+      },
+      {
+        "key": "2",
+        "peakMonth": 9,
+        "color": "red-blue",
+        "genre": "metalcore",
+        "mood": "mallgoth",
+        "descriptor": "self-help instructions",
+        "pivotalArtists": [
+          "spotify:artist:6kQB2RN7WwryMdJ1MoQh1E",
+          "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF",
+          "spotify:artist:6kNKUYGn6VNGsRoXmyoDPK"
+        ],
+        "tracks": [
+          {
+            "trackName": "This Fire",
+            "trackUri": "spotify:track:07ceEXOyS7ghQkyCOycXwP"
+          },
+          {
+            "trackName": "White Washed",
+            "trackUri": "spotify:track:0jCUZSnjn6hxp7zgX3h2rF"
+          },
+          {
+            "trackName": "It Never Ends",
+            "trackUri": "spotify:track:1ubPOjDpZ5GtGOW8dR4NOh"
+          }
+        ]
+      }
+    ]
+  }
+}

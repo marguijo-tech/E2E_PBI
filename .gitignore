@@ -1,2 +1,3 @@
 # Ignore Python virtual environment folder
 .venv/
+poc_load_to_database.py
