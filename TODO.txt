@@ -1,0 +1,5 @@
+# TODO: Push the dataset as a table into MSSQL Server Instance
+# TODO: Set up Prefect Orchestrator to fetch the dataset(s) needed from Kaggle on a schedule using python script
+# TODO: Orchestrate DBT project to build on schedule
+# TODO: Explore data and build models (staging --> Refined --> Mart) in medallion architecture
+# TODO: Create Marts to be consumed by PowerBI for visualization
