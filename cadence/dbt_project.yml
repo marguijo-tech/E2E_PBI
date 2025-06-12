@@ -39,12 +39,16 @@ models:
       +schema: ref
       +materialized: table
     mart:
-      +schema: mart
-      +materialized: view
+      dim:
+        +schema: dim
+        +materialized: table
+      fact:
+        +schema: fact
+        +materialized: table  
 
 seeds:
   cadence:
-    +schema: "seed"
+    +schema: seed
 
 quoting:
   database: false
