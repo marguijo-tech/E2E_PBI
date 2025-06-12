@@ -1,0 +1,55 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="Page-1" id="m2LNNEmC8dAgVcqI7kP_">
+    <mxGraphModel dx="2276" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_AtnAkA4vm8IaJIbh_46-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_AtnAkA4vm8IaJIbh_46-2" target="_AtnAkA4vm8IaJIbh_46-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_AtnAkA4vm8IaJIbh_46-2" value="Discog Collection CSV&lt;br&gt;(Seed)&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/File.svg;" parent="1" vertex="1">
+          <mxGeometry x="-720" y="200" width="56.00000000000001" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="_AtnAkA4vm8IaJIbh_46-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="_AtnAkA4vm8IaJIbh_46-5" target="_AtnAkA4vm8IaJIbh_46-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-408" y="630" as="sourcePoint" />
+            <mxPoint x="-116" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_AtnAkA4vm8IaJIbh_46-5" value="Python Script to Pull Kaggle Dataset&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.script;" parent="1" vertex="1">
+          <mxGeometry x="-750" y="400" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JdsZP-ARmLD5_BdWwS_h-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_AtnAkA4vm8IaJIbh_46-6" target="_AtnAkA4vm8IaJIbh_46-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_AtnAkA4vm8IaJIbh_46-6" value="MSSQL Server&lt;br&gt;&lt;br&gt;Cadence" style="shape=datastore;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-270" y="340" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_AtnAkA4vm8IaJIbh_46-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_AtnAkA4vm8IaJIbh_46-7" target="_AtnAkA4vm8IaJIbh_46-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_AtnAkA4vm8IaJIbh_46-7" value="dbt Seed&lt;br&gt;Materializes as table in database" style="html=1;dashed=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-475" y="209.5" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JdsZP-ARmLD5_BdWwS_h-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_AtnAkA4vm8IaJIbh_46-11" target="_AtnAkA4vm8IaJIbh_46-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_AtnAkA4vm8IaJIbh_46-11" value="DBT&lt;br&gt;Data Modeling&lt;br&gt;(stg, log, ref)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="30" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_AtnAkA4vm8IaJIbh_46-14" value="Direct Connection to SQLServer&lt;div&gt;Build Visuals&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/power_platform/PowerBI.svg;" parent="1" vertex="1">
+          <mxGeometry x="300" y="366" width="51" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="a7O_09EbzPNarN0oXk7E-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="a7O_09EbzPNarN0oXk7E-2" target="_AtnAkA4vm8IaJIbh_46-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a7O_09EbzPNarN0oXk7E-2" value="Script fralttening Spotify JSON to Database&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.script;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="540" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="a7O_09EbzPNarN0oXk7E-5" value="PREFECT FLOW&#xa;" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="-792" y="380" width="212" height="310" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
